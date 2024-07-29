@@ -30,20 +30,20 @@ Project 1: Brute-Force & Reverse Shell (Snort)
 *Ref 1: Start Snort in sniffer mode and log the data*
 
 ![image](https://github.com/user-attachments/assets/073e77c9-1a55-4a24-9084-f41bf54a2955)
-*Ref 2: Run Snort for a while then read the log file.*
+*Ref 2: Run Snort for a period of time, then review the log file.*
 
-After doing manual inspection on a couple of packets I've noticed a pattern of two ports(80 & 22) sending and receiving data. I then monitored a couple of packets from each port using a filter to look for suspicious content.
+After manually inspecting several packets, I noticed a pattern of data being sent and received through two ports: 80 and 22. I then applied a filter to monitor packets from each port, specifically looking for any suspicious content.
 ![image](https://github.com/user-attachments/assets/298dabd2-601c-4cbc-b717-09a783fbf427)
 *Ref 3: Suspicious packet (very large packet)*
 
-After further analysis, I have determined that the attacker is attempting to gain unauthorized access via port 22 (SSH). The next step is to block incoming traffic on port 22 and halt the ongoing brute force attempt.
+After further analysis, I determined that the attacker is attempting to gain unauthorized access through port 22 (SSH). The next step is to block incoming traffic on port 22 to stop the ongoing brute force attempt.
 
 ![image](https://github.com/user-attachments/assets/5e79284c-69f7-4d09-921b-3de3089bec01)
 *Ref 4: Open the text editor to create a new rule*
 
 ![image](https://github.com/user-attachments/assets/07b51c0f-55ed-47e1-ae2c-328a4cb52492)
 
-This rule will drop all incoming SSH traffic. Now we need to activate the IPS to be able to use the rule.
+This rule will block all incoming SSH traffic. To enforce this rule, we need to activate the Intrusion Prevention System (IPS).
 
 ![image](https://github.com/user-attachments/assets/966ab1ff-7761-4af2-8888-b7c99f3fd527)
 
