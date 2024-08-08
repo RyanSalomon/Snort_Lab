@@ -1,4 +1,4 @@
-# Network-Analysis-Lab
+# SNORT LAB
 
 ## Objective
 
