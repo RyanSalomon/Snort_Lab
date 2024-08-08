@@ -2,9 +2,11 @@
 
 ## Objective
 
-The Network Analysis Lab project aimed to create a controlled environment for simulating and detecting cyber attacks. Its primary focus was on analyzing and monitoring network security using Snort, Zeek, and Wireshark, while generating test telemetry to replicate real-world attack scenarios. This hands-on experience was intended to enhance understanding of network security, attack patterns, and defensive strategies.
+The Network Analysis Lab project aimed to create a controlled environment for simulating and detecting cyber attacks. Its primary focus was on analyzing and monitoring network security using Snort, while generating test telemetry to replicate real-world attack scenarios. This hands-on experience was intended to enhance understanding of network security, attack patterns, and defensive strategies.
 
-Project 1: Brute-Force & Reverse Shell (Snort)
+Project 1: Brute-Force 
+
+Project 2: Reverse Shell
 
 ### Skills Learned
 
@@ -18,11 +20,11 @@ Project 1: Brute-Force & Reverse Shell (Snort)
 ### Tools Used
 
 - IDS/IPS.
-- Network analysis tools (such as Snort,Wireshark,Zeek) for capturing and examining network traffic.
+- Network analysis tool (SNORT) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
-Project 1: Brute-Force & Reverse Shell (Snort)  
+Project 1: Brute-Force  
 
 ||  Objective: Observe the live traffic with Snort and create a rule to stop the brute-force attack. 
 
@@ -48,3 +50,6 @@ This rule will block all incoming SSH traffic. To enforce this rule, we need to 
 ![image](https://github.com/user-attachments/assets/966ab1ff-7761-4af2-8888-b7c99f3fd527)
 
 
+
+
+Project 2: Reverse Shell
