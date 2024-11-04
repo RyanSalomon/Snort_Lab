@@ -47,3 +47,6 @@ This rule will block all incoming SSH traffic. To enforce this rule, we need to 
 ![image](https://github.com/user-attachments/assets/966ab1ff-7761-4af2-8888-b7c99f3fd527)
 
 
+# Conclusion: 
+This project demonstrated the critical importance of log analysis in identifying and responding to potential security threats. By simulating adversary tactics and examining user behavior, I was able to uncover significant findings that reinforced the necessity for vigilant monitoring and rapid incident response in cybersecurity practices. The experience gained from this investigation has strengthened my analytical skills and preparedness for future challenges in the field.
+
