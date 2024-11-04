@@ -4,9 +4,6 @@
 
 The Network Analysis Lab project aimed to create a controlled environment for simulating and detecting cyber attacks. Its primary focus was on analyzing and monitoring network security using Snort, while generating test telemetry to replicate real-world attack scenarios. This hands-on experience was intended to enhance understanding of network security, attack patterns, and defensive strategies.
 
-Project 1: Brute-Force 
-
-Project 2: Reverse Shell
 
 ### Skills Learned
 
