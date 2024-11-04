@@ -47,6 +47,3 @@ This rule will block all incoming SSH traffic. To enforce this rule, we need to 
 ![image](https://github.com/user-attachments/assets/966ab1ff-7761-4af2-8888-b7c99f3fd527)
 
 
-
-
-Project 2: Reverse Shell
